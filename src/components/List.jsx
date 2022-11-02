@@ -24,7 +24,7 @@ const List = () => {
           if (!todo.isDone) {
             return (
               <StTodoContainer key={todo.id}>
-                <StLink to={`/${todo.id}`} key={todo.id}>
+                <StLink to={`/personaltaskthree/${todo.id}`} key={todo.id}>
                   <div>Cek Detail</div>
                 </StLink>
                 <div>
@@ -58,7 +58,7 @@ const List = () => {
           if (todo.isDone) {
             return (
               <StTodoContainer key={todo.id}>
-                <StLink to={`/${todo.id}`} key={todo.id}>
+                <StLink to={`/personaltaskthree/${todo.id}`} key={todo.id}>
                   <div>Cek Detail</div>
                 </StLink>
                 <div>
