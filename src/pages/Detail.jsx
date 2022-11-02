@@ -24,7 +24,7 @@ const Detail = () => {
             <StButton
               borderColor="#ddd"
               onClick={() => {
-                navigate("/");
+                navigate("/personaltaskthree");
               }}
             >
               Kembali
